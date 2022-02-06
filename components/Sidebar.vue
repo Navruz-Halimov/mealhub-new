@@ -4,7 +4,21 @@
       <div class="sidebar__menu-hamburger">
         <img src="/icons/menu_active.svg" alt="hamburger icon" />
       </div>
+      <div class="sidebar__menu-logo">
+        <NuxtLink to="#">
+          <img src="/icons/logo/dark_logo.svg" alt="site logo">
+        </NuxtLink>
+      </div>
+        <div class="sidebar__menu-functions">
+          <div class="sidebar__menu-notification">
+            <img src="/icons/notifications/shape.svg" alt="notification">
+          </div>
+          <div class="sidebar__menu-basket">
+            <img src="/icons/baskets/shape.svg" alt="basket">
+          </div>
+        </div>
     </div>
+    <!-- end of sidebar__menu -->
   </div>
   <!-- end of sidebar -->
 </template>
@@ -18,15 +32,31 @@ export default {}
   width: 375px;
   background-color: #f2f2f2;
   z-index: 999;
-  padding-top: 44px;
   background-image: url('/icons/bg-pattern.png');
   background-repeat: repeat;
-  box-shadow: 5px 0px 10px 0px rgb(0 0 0 / 10%);
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1);
 
   &__menu {
+    padding: 9px 16px;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &-hamburger{
+      cursor: pointer;
+    }
+    &-logo{
+      object-fit: cover;
+      max-width: 59px;
+      max-height: 28px;
+    }
+    &-functions{
+      display: flex;
+      align-items: center;
+    }
+    &-notification{
+      margin-right: 10px;
+    }
   }
 }
 </style>
