@@ -19,12 +19,21 @@
         </div>
     </div>
     <!-- end of sidebar__menu -->
+    <div class="sidebar__search">
+    <basic-input-search v-model="catering" />
+    </div>
   </div>
   <!-- end of sidebar -->
 </template>
 
 <script>
-export default {}
+export default {
+  data(){
+    return{
+      catering:''
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
