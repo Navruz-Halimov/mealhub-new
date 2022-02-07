@@ -1,7 +1,10 @@
 <template>
-  <div class="main homepage">
+  <main class="main homepage">
+    <div class="main__body">
+
     <map-view />
-  </div>
+    </div>
+  </main>
   <!-- /.wrapper -->
 </template>
 

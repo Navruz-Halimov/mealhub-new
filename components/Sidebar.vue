@@ -22,6 +22,8 @@
     <div class="sidebar__search">
     <basic-input-search v-model="catering" />
     </div>
+    <!-- end of sidebar__search -->
+
   </div>
   <!-- end of sidebar -->
 </template>
@@ -38,9 +40,9 @@ export default {
 
 <style lang="scss" scoped>
 .sidebar {
-  width: 375px;
+  width:100%;
   background-color: #f2f2f2;
-  z-index: 999;
+  z-index: 2;
   background-image: url('/icons/bg-pattern.png');
   background-repeat: repeat;
   box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1);
@@ -66,6 +68,11 @@ export default {
     &-notification{
       margin-right: 10px;
     }
+  }
+  &__search{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 5px;
   }
 }
 </style>
