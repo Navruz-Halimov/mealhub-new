@@ -225,7 +225,7 @@ import { mapGetters } from 'vuex'
   // position: relative;
   // background-color: red;
   // width: 100%;
-  // height: 100%;
+  height: 100%;
   // overflow: visible;
 
   @media screen and (min-width: 992px) {
@@ -239,11 +239,11 @@ import { mapGetters } from 'vuex'
     // right: 0;
     // bottom: 0;
     // left: 0;
-    // height: 100vh;
+    height: 100%;
     // overflow: visible;
 
     &__Wrapper {
-      // height: 100%;
+      height: 100%;
       // overflow: visible;
     }
 
