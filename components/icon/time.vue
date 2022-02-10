@@ -1,0 +1,39 @@
+<template>
+  <svg
+    :width="iconWidth"
+    :height="iconHeight"
+    viewBox="0 0 18 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9 4V8.5L12 10M16.5 8.5C16.5 12.6421 13.1421 16 9 16C4.85786 16 1.5 12.6421 1.5 8.5C1.5 4.35786 4.85786 1 9 1C13.1421 1 16.5 4.35786 16.5 8.5Z"
+      :stroke="color"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</template>
+
+<script>
+export default {
+      props: {
+    iconWidth: {
+      type: String,
+      default: () => '15',
+    },
+    iconHeight: {
+      type: String,
+      default: () => '15',
+    },
+    color: {
+      type: String,
+      default: () => '#E95A8B',
+    },
+  },
+}
+</script>
+
+<style lang="scss" scoped>
+</style>

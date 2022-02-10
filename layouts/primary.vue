@@ -24,7 +24,7 @@ export default {}
   flex-direction: column;
 }
 .sidebar__wrapper{
-  flex: 0 0 350px;
+  flex: 0 0 375px;
   
 }
 }
