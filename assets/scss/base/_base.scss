@@ -2,6 +2,10 @@
 *,*::before,*::after{
 box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
 html{
     box-sizing: inherit;
 }
@@ -9,6 +13,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: $Montserrat-r;
+    --transition-duration: 300ms;
+    color: #2b2b2b;
 }
 ul{
     margin: 0;

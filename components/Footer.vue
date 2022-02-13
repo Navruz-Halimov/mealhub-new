@@ -46,42 +46,42 @@ export default {}
 
 <style lang="scss" scoped>
 @import '~/assets/scss/abstracts/variables';
-.footer {
-  background-color: $f-color;
-  &__inner {
-    max-width: 1920px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    padding: 5px 60px;
-    z-index: 99999;
-  }
-  &__copyright {
-    color: $c-light;
-    font-size: 13px;
-    line-height: 15px;
-  }
-  &__social {
-    display: flex;
-    &-item {
-      margin-right: 20px;
-      display: block;
-    }
-  }
-  &__bepartner {
-    background: transparent;
-    padding: 5px 10px;
-    border: 1px solid $c-error;
-    border-radius: 30px;
-    cursor: pointer;
-    color: $c-error;
-  }
-  &__lang {
-    font-size: 16px;
-    line-height: 19px;
-    color: $c-light;
-  }
-}
+// .footer {
+//   background-color: $f-color;
+//   &__inner {
+//     max-width: 1920px;
+//     height: 40px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     font-size: 14px;
+//     padding: 5px 60px;
+//     z-index: 99999;
+//   }
+//   &__copyright {
+//     color: $c-light;
+//     font-size: 13px;
+//     line-height: 15px;
+//   }
+//   &__social {
+//     display: flex;
+//     &-item {
+//       margin-right: 20px;
+//       display: block;
+//     }
+//   }
+//   &__bepartner {
+//     background: transparent;
+//     padding: 5px 10px;
+//     border: 1px solid $c-error;
+//     border-radius: 30px;
+//     cursor: pointer;
+//     color: $c-error;
+//   }
+//   &__lang {
+//     font-size: 16px;
+//     line-height: 19px;
+//     color: $c-light;
+//   }
+// }
 </style>

@@ -1,0 +1,77 @@
+/* Helpers */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row.hcenter {
+    justify-content: center;
+}
+
+.row.vcenter {
+    align-items: center;
+}
+
+.col.hcenter {
+    align-items: center;
+}
+
+.col.vcenter {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.static {
+    flex: 0 0 auto;
+}
+
+.flex {
+    flex: 1 1 auto;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap5 {
+    gap: 5px;
+}
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+.scroll {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	overflow: scroll;
+}
+
+.yellow {
+    color: #FCC32D;
+}
+
+.softgray {
+    color: #BDBDBD;
+}
+
+.pink {
+    color: #E95A8B;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
