@@ -1,186 +1,142 @@
 // Additional settings --------------------------------------
 // Styles for GMap view
-const mapStyle = [
-    {
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#f5f5f5'
-        }
-      ]
-    },
-    {
-      elementType: 'labels.icon',
-      stylers: [
-        {
-          visibility: 'off'
-        }
-      ]
-    },
-    {
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#616161'
-        }
-      ]
-    },
-    {
-      elementType: 'labels.text.stroke',
-      stylers: [
-        {
-          color: '#f5f5f5'
-        }
-      ]
-    },
-    {
-      featureType: 'administrative.land_parcel',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#bdbdbd'
-        }
-      ]
-    },
-    {
-      featureType: 'poi',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#eeeeee'
-        }
-      ]
-    },
-    {
-      featureType: 'poi',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#757575'
-        }
-      ]
-    },
-    {
-      featureType: 'poi.park',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#e5e5e5'
-        }
-      ]
-    },
-    {
-      featureType: 'poi.park',
-      elementType: 'geometry.fill',
-      stylers: [
-        {
-          color: '#7ed378'
-        }
-      ]
-    },
-    {
-      featureType: 'poi.park',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#9e9e9e'
-        }
-      ]
-    },
-    {
-      featureType: 'road',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#ffffff'
-        }
-      ]
-    },
-    {
-      featureType: 'road.arterial',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#757575'
-        }
-      ]
-    },
-    {
-      featureType: 'road.highway',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#dadada'
-        }
-      ]
-    },
-    {
-      featureType: 'road.highway',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#616161'
-        }
-      ]
-    },
-    {
-      featureType: 'road.local',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#9e9e9e'
-        }
-      ]
-    },
-    {
-      featureType: 'transit.line',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#e5e5e5'
-        }
-      ]
-    },
-    {
-      featureType: 'transit.station',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#eeeeee'
-        }
-      ]
-    },
-    {
-      featureType: 'water',
-      elementType: 'geometry',
-      stylers: [
-        {
-          color: '#c9c9c9'
-        }
-      ]
-    },
-    {
-      featureType: 'water',
-      elementType: 'geometry.fill',
-      stylers: [
-        {
-          color: '#6f8bce'
-        }
-      ]
-    },
-    {
-      featureType: 'water',
-      elementType: 'labels.text.fill',
-      stylers: [
-        {
-          color: '#9e9e9e'
-        }
-      ]
-    }
-  ]
+const mapStyle= [
+  {
+    featureType: 'administrative',
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#444444',
+      },
+    ],
+  },
+  {
+    featureType: 'administrative.province',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'administrative.locality',
+    elementType: 'labels.text',
+    stylers: [
+      {
+        weight: '1.49',
+      },
+      {
+        lightness: '50',
+      },
+    ],
+  },
+  {
+    featureType: 'administrative.neighborhood',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'landscape',
+    elementType: 'all',
+    stylers: [
+      {
+        color: '#f2f2f2',
+      },
+    ],
+  },
+  {
+    featureType: 'landscape.man_made',
+    elementType: 'geometry.fill',
+    stylers: [
+      {
+        visibility: 'simplified',
+      },
+    ],
+  },
+  {
+    featureType: 'landscape.man_made',
+    elementType: 'geometry.stroke',
+    stylers: [
+      {
+        lightness: '-30',
+      },
+    ],
+  },
+  {
+    featureType: 'poi',
+    elementType: 'all',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'road',
+    elementType: 'all',
+    stylers: [
+      {
+        saturation: '-100',
+      },
+    ],
+  },
+  {
+    featureType: 'road.highway',
+    elementType: 'all',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'road.arterial',
+    elementType: 'labels.icon',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'road.local',
+    elementType: 'geometry.fill',
+    stylers: [
+      {
+        lightness: '50',
+      },
+    ],
+  },
+  {
+    featureType: 'transit',
+    elementType: 'all',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'water',
+    elementType: 'all',
+    stylers: [
+      {
+        color: '#b9ddeb',
+      },
+      {
+        visibility: 'on',
+      },
+    ],
+  },
+]
   
   // App State --------------------------------------
-  const state = () => ({
+ export const state = () => ({
     gmapSettings: {
       language: 'en',
       center: {
@@ -203,7 +159,7 @@ const mapStyle = [
       },
       options: {
         icon: {
-          url: '/icons/consumables/pin-center.svg',
+          url: '/icons/pin-center.svg',
           size: {
             height: 42,
             width: 42
@@ -220,10 +176,10 @@ const mapStyle = [
       }
     },
     gmapCircleOptions: {
-      radius: (+localStorage.getItem('gmapRadius') && ((+localStorage.getItem('gmapRadius')) <= 50)) ? (+localStorage.getItem('gmapRadius')) : 1,
+      radius:1,
       strokeWeight: 2.4,
-      strokeColor: '#f3bd4442',
-      fillColor: '#F3BD44',
+      strokeColor: '#e95a8b',
+      fillColor: '#e95a8b',
       fillOpacity: 0.34,
       center: {
         lat: 59.9361782,
@@ -232,13 +188,13 @@ const mapStyle = [
     }
   })
   
-  const getters = {
+ export const getters = {
     GMAP_SETTINGS: state => state.gmapSettings,
     GMAP_CENTER_SETTINGS: state => state.gmapCenterSettings,
     GMAP_CIRCLE_OPTIONS: state => state.gmapCircleOptions
   }
   
-  const mutations = {
+ export const mutations = {
     SET_GMAP_SETTINGS: (state, objWithNewValue) => {
       const newSettings = {
         ...state.gmapSettings,
@@ -267,7 +223,7 @@ const mapStyle = [
     }
   }
   
-  const actions = {
+ export const actions = {
     GET_GMAP_CENTER_POSITION ({ commit }, coords) {
       commit('SET_GMAP_SETTINGS', {
         center: {
@@ -293,10 +249,4 @@ const mapStyle = [
       })
     }
   }
-  
-  const moduleStore = {
-    state, getters, mutations, actions
-  }
-  
-  export default moduleStore
   

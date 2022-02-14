@@ -9,48 +9,7 @@
 /*Responsive settings*/
 
 
-@media only screen and (max-width: 1199px) {
 
-}
-
-@media only screen and (max-width: 1023px) {
-
-  .recblock {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .menu {
-    width: 100%;
-  }
-
-  .sidebar {
-    position: absolute;
-    background: none;
-    width: 100%;
-    bottom: 50px;
-    flex-direction: row;
-    padding-top: 0px !important;
-    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
-    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
-  }
- 
-  .cards {
-    flex-direction: row;
-    margin: 0px;
-    margin-left: 10px;
-  }
-
-  .page {
-    margin-top: 44px;
-  }
-}
-
-@media only screen and (max-width: 479px) {
-  
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
@@ -195,7 +154,7 @@ i.partner {background-image: url(/icons/partner.svg);}
 .search_icon {
   width: 23px;
   height: 23px;
-//   background: url(../assets/search.svg) center no-repeat;
+  background: url(/icons/search.svg) center no-repeat;
   background-size: 23px;
   opacity: 0.5;
 }
@@ -203,14 +162,14 @@ i.partner {background-image: url(/icons/partner.svg);}
 .login {
   width: 23px;
   height: 23px;
-//   background: url("../assets/login.svg") center no-repeat;
+  background: url("/icons/login.svg") center no-repeat;
   background-size: contain;
 }
 
 .basket {
   width: 23px;
   height: 23px;
-//   background: url("../assets/basket_active.svg") center no-repeat;
+  background: url("/icons/basket_active.svg") center no-repeat;
   background-size: contain;
 }
 
@@ -241,23 +200,23 @@ i.partner {background-image: url(/icons/partner.svg);}
 
 /* Footer elements*/
 
-footer {
-  height: fit-content;
-  background-color: #2b2b2b;
-  justify-content: space-between;
-  font-size: 14px;
-  padding: 10px;
-  z-index: 99999;
-  transition-duration: 0;
-}
+// footer {
+//   height: fit-content;
+//   background-color: #2b2b2b;
+//   justify-content: space-between;
+//   font-size: 14px;
+//   padding: 10px;
+//   z-index: 99999;
+//   transition-duration: 0;
+// }
 
-footer * {
-  color: #BDBDBD !important;
-}
+// footer * {
+//   color: #BDBDBD !important;
+// }
 
-.copyright, .social, .language {
-  margin: 0px 16px;
-}
+// .copyright, .social, .language {
+//   margin: 0px 16px;
+// }
 
 .instagram:hover {
     color: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
@@ -269,14 +228,7 @@ footer * {
 
 /* Page content */
 
-.container {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
+
 
 .page {
   display: flex;
@@ -290,7 +242,7 @@ footer * {
   background-color: #f2f2f2;
   z-index: 999;
   padding-top: 44px;
-//   background-image: url('../assets/bg-pattern.png');
+  background-image: url('/icons/bg-pattern.png');
   background-repeat: repeat;
   -webkit-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.1);
@@ -384,7 +336,7 @@ footer * {
 }
 
 .filterbtn {
-//   background-image: url("../assets/filterbtn.svg");
+  background-image: url("/icons/filterbtn.svg");
   background-color: #E95A8B;
   width: 40px;
   height: 40px;
@@ -399,7 +351,7 @@ footer * {
   margin: 5px;
   border: 1px solid transparent;
   padding: 0px 10px;
-  height: 40;
+  height: 40px;
   font-size: 14px;
 }
 
@@ -482,4 +434,46 @@ button.partner {
   font-size: 14px;
   height: fit-content;
   margin: 0px;
+}
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .recblock {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .menu {
+    width: 100%;
+  }
+
+  .sidebar {
+    position: absolute;
+    background: none;
+    width: 100%;
+    bottom: 50px;
+    flex-direction: row;
+    padding-top: 0px !important;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
+  }
+ 
+  .cards {
+    flex-direction: row;
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  .page {
+    margin-top: 44px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  
 }

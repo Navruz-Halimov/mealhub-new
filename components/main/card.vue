@@ -36,80 +36,80 @@ export default {}
 
 <style lang="scss" scoped>
 @import '~/assets/scss/abstracts/variables';
-// .card {
-//   border-radius: 10px;
-//   overflow: hidden;
-//   width: 328px;
-//   height: 110px;
-//   display: flex;
-//   margin-top: 10px;
-//   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-//   &__image {
-//     img {
-//       object-fit: contain;
-//       width: 110px;
-//       height: 110px;
-//     }
-//   }
-//   &__info {
-//     background-color: #fff;
-//     padding: 10px 10px 12px 10px;
-//     &-name {
-//       font-family: $Montserrat-r;
-//       font-size: 13px;
-//       line-height: 15px;
-//       font-weight: 700;
-//       display: flex;
-//       align-items: center;
-//       color: $f-color;
-//     }
-//     &-address {
-//       height: 30px;
-//       overflow: hidden;
-//       margin-top: 5px;
-//       font-family: $Montserrat-r;
-//       font-size: 13px;
-//       line-height: 15px;
-//       color: $f-color;
-//     }
-//     &-mark {
-//       display: flex;
-//       margin-top: 5px;
-//       &-rate {
-//         color: $f-color;
-//         font-family: $Montserrat-r;
-//         font-weight: 500;
-//         font-size: 13px;
-//         line-height: 15px;
-//         margin-left: 7px;
-//       }
-//     }
-//     &-additional {
-//       margin-top: 1px;
-//       font-size: 13px;
-//       line-height: 15px;
-//       display: flex;
-//       align-items: center;
-//       color: #2b2b2b;
-//     }
-//     &-worktime {
-//       display: flex;
-//       align-items: center;
-//       margin-right: 7px;
-//       span {
-//         margin-left: 7px;
-//       }
-//     }
-//     &-route {
-//       display: flex;
-//       align-items: center;
-//       font-size: 13px;
-//       line-height: 15px;
-//       color: #2b2b2b;
-//       &-path{
-//         margin-left: 6px;
-//       }
-//     }
-//   }
-// }
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 328px;
+  height: 110px;
+  display: flex;
+  margin-top: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  &__image {
+    img {
+      object-fit: contain;
+      width: 110px;
+      height: 110px;
+    }
+  }
+  &__info {
+    background-color: #fff;
+    padding: 10px 10px 12px 10px;
+    &-name {
+      font-family: $Montserrat-r;
+      font-size: 13px;
+      line-height: 15px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      color: $f-color;
+    }
+    &-address {
+      height: 30px;
+      overflow: hidden;
+      margin-top: 5px;
+      font-family: $Montserrat-r;
+      font-size: 13px;
+      line-height: 15px;
+      color: $f-color;
+    }
+    &-mark {
+      display: flex;
+      margin-top: 5px;
+      &-rate {
+        color: $f-color;
+        font-family: $Montserrat-r;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 7px;
+      }
+    }
+    &-additional {
+      margin-top: 1px;
+      font-size: 13px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #2b2b2b;
+    }
+    &-worktime {
+      display: flex;
+      align-items: center;
+      margin-right: 7px;
+      span {
+        margin-left: 7px;
+      }
+    }
+    &-route {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      line-height: 15px;
+      color: #2b2b2b;
+      &-path{
+        margin-left: 6px;
+      }
+    }
+  }
+}
 </style>
