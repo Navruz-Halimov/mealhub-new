@@ -1,36 +1,15 @@
 <template>
   <div ref="wrapper" class="wrapper">
-    <div class="wrapper-container">
-      <div class="primary_layout container row">
-        <!-- <Sidebar class="sidebar__wrapper" /> -->
-        <Nuxt />
-      </div>
-      <!-- /.primary_layout -->
-    </div>
+   <Nuxt/>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout:"primary"
+}
 </script>
 
 <style lang="scss" scoped>
-// .wrapper {
-//  height: 100vh;
-// &-container{
-//   height:100%;
-//   display: flex;
-//   flex-direction: column;
-// }
-// .sidebar__wrapper{
-//   flex: 0 0 375px;
-  
-// }
-// }
-.primary_layout {
-  // display: flex;
-  // align-items: stretch;
-  // width: 100%;
-  // height:100%;
-}
+
 </style>

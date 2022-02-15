@@ -76,7 +76,7 @@
       </div>
       <div class="topage row static vcenter gap5">
         <i class="logout page_icon col vcenter static"></i>
-        <div class="pageName col flex vcenter">Выйти</div>
+        <div class="pageName col flex vcenter">{{$t('logout')}}</div>
       </div>
     </div>
     <Footer />
