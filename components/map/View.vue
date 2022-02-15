@@ -108,8 +108,8 @@ export default {
     }
   },
   mounted(){
-    console.log(this.$store)
-    console.log('GMAP_SETTINGS',this.GMAP_SETTINGS)
+    // console.log(this.$store)
+    // console.log('GMAP_SETTINGS',this.GMAP_SETTINGS)
   },
 methods:{
 

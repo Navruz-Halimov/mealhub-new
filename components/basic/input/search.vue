@@ -41,34 +41,34 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  // .search {
-  //   position: relative;
-  //   width: 100%;
-  //   &-icon {
-  //   position: absolute;
-  //   left: 10px;
-  //   top: 9px;
-  //   width: 20px;
-  //   height: 20px;
-  //   z-index: 111;
-  //   }
-  // &-input {
-  // width: 100%;
-  // display: block;
-  // padding: 7px 30px;
-  // font-size: 17px;
-  // line-height: 22px;
-  // letter-spacing: -0.408px;
-  // color: #9C9AA8;
-  // background: #FDFDFD;
-  // box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  // border-radius: 10px;
-  // border: none;
-  // outline: none;
-  // &:focus{
-  //   border: none;
-  //   outline: none;
-  // }
-  // }
-  // }
+  .search {
+    position: relative;
+    width: 100%;
+    &-icon {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    width: 20px;
+    height: 20px;
+    z-index: 111;
+    }
+  &-input {
+  width: 100%;
+  display: block;
+  padding: 7px 30px;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #9C9AA8;
+  background: #FDFDFD;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  &:focus{
+    border: none;
+    outline: none;
+  }
+  }
+  }
 </style>
